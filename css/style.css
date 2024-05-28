@@ -22,8 +22,9 @@ body {
 }
 
 .highlight {
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
+
 /*container*/
 #container{
     display: flex;
