@@ -1,13 +1,12 @@
-/*Reset */
-*{
+/* Reset */
+* {
     padding: 0;
     margin: 0;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
-/*Variables*/
-
+/* Variables */
 :root {
     --main-color: #54b689;
     --main-text-color: #fff;
@@ -16,7 +15,18 @@
     --bio-border-color: #111821;
 }
 
-/*General*/
-.highlight{
-    color : var(--main-color);
+/* General */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.highlight {
+    color: var(--main-color);
+}
+/*container*/
+#container{
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color);
 }
