@@ -16,13 +16,8 @@
 }
 
 /* General */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 .highlight {
-    color: var(--main-color) !important;
+    color: var(--main-color);
 }
 
 /*container*/
