@@ -45,8 +45,18 @@
 }
 
 /* bio container */
-#bio-container img {
-    width: 150px;
-    height: 150px;
+#bio-container h2{
+    margin-bottom: 25px;
+}
+
+#bio-container p {
+    margin-bottom: 20px;
+}
+
+
+#bio-image {
+    width: 175px;
+    min-height: 175vh;
     border-radius: 50%;
+    margin-bottom:  25px; 
 }
