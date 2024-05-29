@@ -22,13 +22,13 @@
 }
 
 /*container*/
-#container{
+#container {
     display: flex;
     flex-direction: row;
     color: var(--main-text-color);
 }
 
-#bio-container{
+#bio_container {
     flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
@@ -37,17 +37,16 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
-#about_container{
+#about_container {
     flex: 1 1 80%;
     height: 100%;
     background-color: var(--about-bg-color);
     padding: 50px;
 }
 
-
-/* bio container*/
-#bio_container img{
+/* bio container */
+#bio_container img {
     width: 150px;
     height: 150px;
-
+    border-radius: 50%;
 }
