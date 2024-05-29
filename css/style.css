@@ -12,7 +12,8 @@
     --main-text-color: #fff;
     --border-color: #999;
     --bio-bg-color: #1E2A3A;
-    --bio-border-color: #111821;
+    --bio-border-color: #293544;
+    --about-bg-color: #111821;
 }
 
 /* General */
@@ -36,6 +37,15 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
+#about_container{
+    flex: 1 1 80%;
+    height: 100%;
+    background-color: var(--about-bg-color);
+    padding: 50px;
+}
+
+
+/* bio container*/
 #bio_container img{
     width: 150px;
     height: 150px;
