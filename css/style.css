@@ -28,7 +28,7 @@
     color: var(--main-text-color);
 }
 
-#bio_container {
+#bio-container {
     flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
@@ -39,7 +39,7 @@
 
 #about-container{
     flex: 1 1 80%;
-    height: 100%;
+    min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
 }
