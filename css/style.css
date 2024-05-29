@@ -37,12 +37,7 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
-#about_container {
-    flex: 1 1 80%;
-    height: 100%;
-    background-color: var(--about-bg-color);
-    padding: 50px;
-}
+
 
 /* bio container */
 #bio_container img {
