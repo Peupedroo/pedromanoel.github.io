@@ -46,9 +46,10 @@
     margin-bottom: 20px;
 }
 
-#bio-container #welcome-text{
+#bio-container #welcome-text {
     font-weight: bold;
 }
+
 #bio-container img {
     width: 175px;
     height: 175px;
@@ -65,7 +66,8 @@
     margin-bottom: 25px;
     padding-bottom: 25px;
 }
-#social-container li{
+
+#social-container li {
     flex: 1 1 0;
     max-width: 60px;
 }
@@ -73,7 +75,6 @@
 #social-container li a {
     color: var(--main-color);
     font-size: 30px;
-    
 }
 
 #email-container {
@@ -82,7 +83,7 @@
 }
 
 #email-container ion-icon,
-#email-contianer a{
+#email-container a {
     flex: 1 1 0;
     margin-right: 8px;
 }
@@ -92,14 +93,16 @@
     text-decoration: none;
     max-width: 225px;
 }
-#email-container ion-icon{
+
+#email-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 20px;
     max-width: 20px;
 }
+
 /* About Container */
-#name{
+#name {
     font-size: 42px;
     margin-bottom: 45px;
 }
@@ -110,7 +113,7 @@
     font-weight: bold;
 }
 
-.description{
+.description {
     max-width: 75%;
     margin-bottom: 10px;
 }
@@ -141,29 +144,32 @@
     margin: 25px 0;
     text-decoration: none;
     border-radius: 5px;
-    transition:  5s;
+    transition: 5s;
     width: 150px;
     text-align: center;
 }
 
-#bnt-projects ion-icon,
-#bnt-projects span{
+#btn-projects ion-icon,
+#btn-projects span {
     flex: 1 1 0;
 }
 
-#bnt-projects ion-icon{
+#btn-projects ion-icon {
     font-size: 20px;
     max-width: 20px;
 }
-#bnt-projects:hover{
+
+#btn-projects:hover {
     background-color: transparent;
 }
-#skils-section-title{
+
+#skils-section-title {
     border-top: 1px var(--border-color);
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 32px;
 }
+
 #skill-container {
     display: flex;
     flex-wrap: wrap;
@@ -190,48 +196,68 @@
     margin-right: 10px;
 }
 
-/*mobile*/
-@media(max-width: 450px){
-    #container{
+/* Mobile */
+@media (max-width: 450px) {
+    #container {
         flex-direction: column;
     }
-    #bio-container{
+
+    #bio-container {
         min-height: auto;
         border-right: none;
         border-bottom: 5px solid var(--bio-border-color);
     }
 
-    #bio-container h2{
+    #bio-container h2 {
         display: none;
     }
-    
+
     #bio-container p {
-        max-width: 60px;
+        max-width: 100%;
         margin: 10px auto;
     }
 
-    #about-container{
+    #about-container {
         text-align: center;
-        padding: 30px;
+        padding: 20px;
     }
 
-    #about-container .description{
-        margin:10px auto;
-        max-width: 100%;
-        line-height: 256px;
+    #about-container #name {
+        font-size: 32px;
     }
-    #btn-projcts{
+
+    #about-container #title {
+        font-size: 20px;
+    }
+
+    #about-container .description {
+        margin: 10px auto;
+        max-width: 100%;
+        line-height: 1.5;
+    }
+
+    #about-container p,
+    #about-container ul {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #btn-projects {
         margin: 20px auto;
     }
 
-    .skillbox-box{
+    .skillbox {
         flex: 1 1 100%;
         max-width: 100%;
-        margin-bottom: 40%;
+        margin-bottom: 20px;
         text-align: left;
     }
 
-    .skill-box i{
+    .skillbox i {
         font-size: 60px;
+    }
+
+    #skils-section-title {
+        font-size: 24px;
     }
 }
