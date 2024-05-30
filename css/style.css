@@ -144,9 +144,11 @@
     margin: 25px 0;
     text-decoration: none;
     border-radius: 5px;
-    transition: 5s;
+    transition: background-color 0.3s ease;
     width: 150px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #btn-projects ion-icon,
@@ -161,10 +163,12 @@
 
 #btn-projects:hover {
     background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
 }
 
 #skils-section-title {
-    border-top: 1px var(--border-color);
+    border-top: 1px solid var(--border-color);
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 32px;
@@ -244,6 +248,9 @@
 
     #btn-projects {
         margin: 20px auto;
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
     }
 
     .skillbox {
